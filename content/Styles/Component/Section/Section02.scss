@@ -33,7 +33,8 @@
       .c-column-02 {
         width: 782px;
 
-        > .c-item-01 {
+        >.c-item-01 {
+          margin-bottom: 32px;
           font-family: "Inter";
           font-style: normal;
           font-weight: 700;
@@ -57,22 +58,94 @@
           letter-spacing: -0.017em;
 
           color: rgba(0, 0, 0, 0.8);
+          padding-bottom: 80px;
         }
 
         .c-item {
+          display: flex;
+          background-color: #FFFFFF;
+          width: 782px;
+          height: 314px;
+          margin-bottom: 40px;
           .c-item-01 {
-            .c-column-01-A {
+           
+            .c-item-01-A {
+              padding-left: 40px;
+              padding-top: 40px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 22px;
+              /* or 110% */
+
+              letter-spacing: -0.017em;
+              
             }
 
-            .c-column-01-B {
+            .c-item-01-B {
+
+              padding-left: 40px;
+              padding-bottom:24px;
+              
+              width: 360px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 22px;
+              
+              letter-spacing: -0.6%;
+
             }
 
-            .c-column-01-C {
+            .c-item-01-C {
+              padding-bottom: 16px;
+              padding-left: 40px;
+              
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 22px;
+              /* identical to box height, or 157% */
+
+              letter-spacing: -0.006em;
+
+              color: #000000;
+            }
+            .c-item-01-D{
+              padding-left: 40px;
+
             }
           }
 
           .c-item-02 {
+            width: 165px;
+            height: 234px;
+            padding-top: 40px;
+            margin-left: 125px;
+            object-fit: cover;
           }
+
+          .c-item-03{
+            width: 319px;
+            height: 314px;
+            position: absolute;
+            right: 0;
+            
+
+            >.c-item-02{
+              margin: 0 auto;
+              width: 200px;
+            height: 314px;
+            padding: 0;
+            object-fit: cover;
+            }
+
+          }
+
+
         }
       }
     }

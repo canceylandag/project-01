@@ -8,10 +8,7 @@
   src: url(../../content/Styles/Fonts/Inter-Bold.ttf);
   font-weight: 700;
 }
-body {
-  font-family: "Inter";
-  font-size: 100%;
-}
+
 
 a {
   text-decoration: none;

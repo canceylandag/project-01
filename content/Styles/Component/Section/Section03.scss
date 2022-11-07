@@ -17,15 +17,17 @@
 
       .c-column-01 {
         flex: 1;
-
+        
         .c-item-01 {
+          position: absolute;
+          top: -80px;
           font-family: "Inter";
           font-style: normal;
           font-weight: 400;
           font-size: 144px;
           line-height: 288px;
           /* identical to box height, or 200% */
-
+          
           color: rgba(0, 0, 0, 0.1);
         }
       }

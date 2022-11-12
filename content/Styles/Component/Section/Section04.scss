@@ -66,13 +66,14 @@
 
             color: rgba(0, 0, 0, 0.8);
           }
-          >.c-item-03{margin-bottom: 2px;}
+          >.c-item-03{margin-bottom: 2px; color:rgba(0, 0, 0, 0.5);}
           > .c-item-04 {
             padding: 0 16px 0 16px;
             background-color: #ffffff;
             > .c-content-01 {
               display: flex;
               justify-content: space-between;
+              align-items: center;
               margin-bottom: 32px;
               padding: 8px 0px 13px 5px;
             }
@@ -84,6 +85,7 @@
                 width: 128px;
                 height: 128px;
                 margin-bottom: 32px;
+                border-radius: 500px;
               }
               > .c-content-02-B {
                 font-family: "Comfortaa";
@@ -179,6 +181,7 @@
             > .c-content-01 {
               display: flex;
               justify-content: space-between;
+              align-items: center;
               margin-bottom: 16px;
               padding: 8px 0px 13px 5px;
             }
